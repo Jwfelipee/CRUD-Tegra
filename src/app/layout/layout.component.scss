@@ -1,0 +1,20 @@
+.layoutContainer{
+    width: 100vw;
+    height: 5vh;
+}
+
+.contentContainer {
+    display: flex;
+    width: 100%;
+    min-height: 92vh;
+    background-color: var(--background-light);
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.darkthemeContent{
+    background-color: var(--background-dark);
+    color: var(--white);
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}

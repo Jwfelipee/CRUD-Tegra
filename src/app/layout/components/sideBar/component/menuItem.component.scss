@@ -1,0 +1,56 @@
+.icon {
+  max-width: 40px;
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  &:hover {
+    background-color: var(--sidebar-light);
+    opacity: 70%;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+  }
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & span {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+.iconExit {
+  cursor: pointer;
+  color: var(--red-light);
+  transition: color 0.5s;
+  &:hover {
+    color: var(--white);
+    background-color: var(--red-light);
+    transition: background-color 0.5s;
+  }
+}
+
+.darkthemeIcon {
+  color: var(--white);
+  transition: color 0.5s;
+
+  &:hover {
+    color: var(--red-dark);
+    background-color: var(--background-dark) !important;
+    transition: background-color 0.5s;
+  }
+}

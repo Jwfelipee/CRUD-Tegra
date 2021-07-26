@@ -1,0 +1,24 @@
+:root {
+    --white: #f0e9e9;
+    --black: #2c2b2b;
+    --logo: #fff;
+
+    --red-light: #fa0931;
+    --red-dark: #E83F5B;
+    --green-light: #4CD62B;
+    --green-dark: #4CD62B;
+    --blue-light: #5965E0;
+    --blue-dark: #5965E0;
+
+    --primary-light: #B92B66;
+    --secondary-light: #1d1bac;
+    --background-light: #b5caf3;
+    --sidebar-light: rgb(76, 126, 243);
+    
+
+    --primary-dark: #881143;
+    --secondary-dark: rgba(5, 4, 56, 0.685);
+    --background-dark: #0a113a;
+    --sidebar-dark: #272a2e; 
+    
+}

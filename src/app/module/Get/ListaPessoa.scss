@@ -1,0 +1,50 @@
+.DadosSubTitle {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: black 10px 8px 8px;
+    color: black;
+}
+
+.DadosGet {
+    background: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: var(--black) 10px 8px 8px;
+    color: black;
+}
+
+.Negrito {
+    font-weight: bold;
+}
+
+.ButtonG {
+    border-radius: 10px;
+    padding: 1px 3px;
+    background-color: var(--sidebar-light);
+    color: var(--white);
+    border: none;
+    box-shadow: black 2px 1px 1px;
+    cursor: pointer;
+    }
+
+.DadosLista {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;    
+    padding-left: 3px;    
+    padding-top: 3px;
+    background-color: var(--background-light);
+    border-radius: 5px;
+    cursor: default;
+
+    & > p, label{
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,43 @@
+.buttonContainer {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.dark {
+  border-radius: 50%;
+
+  color: rgb(240, 240, 240);
+  background: rgb(0, 18, 255);
+  background: linear-gradient(
+    83deg,
+    rgba(0, 18, 255, 1) 33%,
+    rgba(246, 0, 203, 1) 100%
+  );
+}
+
+.light {
+  border-radius: 50%;
+
+  color: red;
+  background: rgb(255, 222, 0);
+  background: linear-gradient(
+    83deg,
+    rgba(255, 222, 0, 1) 33%,
+    rgba(246, 111, 0, 1) 100%
+  );
+}
+
+.button {
+  width: 28px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
